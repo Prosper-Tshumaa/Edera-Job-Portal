@@ -37,13 +37,13 @@ In conclusion, Careerhub is a sophisticated job portal web application that prov
 
 ## Installation
 
-1.  Clone the repository to your local machine using `git clone https://github.com/ahnge/careerhub.git`
-2.  Change to the project directory using `cd careerhub`
-3.  Run `composer install` to install the project dependencies
-4.  Create a `.env` file by copying the `.env.example` file using the command `cp .env.example .env`
-5.  Set up the database connection in the `.env` file
-6.  Run `php artisan migrate` to create the database tables
-7.  Set up the Amazon S3 bucket credentials in the `.env` file
-8.  Run the application using `php artisan serve`
+1.  Clone the repository to your local machine using `git clone https://github.com/Prosper-Tshumaa/Edera-Job-Portal.git`
+2.  Run `composer install` to install the project dependencies
+3.  Create a `.env` file by copying the `.env.example` file using the command `cp .env.example .env`
+4.  Set up the database connection in the `.env` file
+5.  Run `php artisan migrate` to create the database tables
+6.  Set up the Amazon S3 bucket credentials in the `.env` file
+7.  Run the application using `php artisan serve`
+8.  Run NPM i
 
 
