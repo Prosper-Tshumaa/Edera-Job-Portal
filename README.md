@@ -3,7 +3,7 @@
 
 #### Description:
 
-Careerhub is a job portal web application developed using the Laravel framework as a final project for the CS50 course. The application allows employers to create job postings and job seekers to apply to those postings. The project also includes an Amazon S3 bucket for storing images and resumes.
+Careerhub is a job portal web application developed using the Laravel framework. The application allows employers to create job postings and job seekers to apply to those postings. The project also includes an Amazon S3 bucket for storing images and resumes.
 
 The application is hosted on an AWS EC2 instance with LAMP stack and MySQL server, providing a robust and scalable infrastructure for managing large numbers of job postings and job seekers. The project uses the Model-View-Controller (MVC) architecture to separate concerns and ensure maintainability and scalability.
 
@@ -41,7 +41,7 @@ In conclusion, Careerhub is a sophisticated job portal web application that prov
 2.  Run `composer install` to install the project dependencies
 3.  Create a `.env` file by copying the `.env.example` file using the command `cp .env.example .env`
 4.  Set up the database connection in the `.env` file
-5.  Run `php artisan migrate` to create the database tables
+5.  Run `php artisan migrate and php artisan db:seed` to create the database tables and seeders
 6.  Set up the Amazon S3 bucket credentials in the `.env` file
 7.  Run the application using `php artisan serve`
 8.  Run NPM i
